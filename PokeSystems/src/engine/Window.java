@@ -11,7 +11,7 @@ import javax.swing.JRootPane;
 public class Window extends JFrame
 {
 
-    private Canvas canvas;
+    private final Canvas canvas;
     private Graphics g;
     private BufferStrategy bs;
     
@@ -47,9 +47,6 @@ public class Window extends JFrame
         }
         this.g = this.bs.getDrawGraphics();
 
-        try (var a = bs.getDrawGraphics()) {
-
-        }
         return this.g;
     }
 

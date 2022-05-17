@@ -39,17 +39,13 @@
       },
       {
         "text": "I'll repair your scalpal for you as to atone for my sin of being toxic.",
-        "commands": [
-          "remove_pokemon SCALPAL",
-          "add_pokemon SCALPAL"
-        ]
+        "commands": ["remove_pokemon SCALPAL", "add_pokemon SCALPAL"]
       },
       {
         "text": "I'll see you later!",
-        "commands": [
-          "delete_prop 13 4"
-        ]
+        "commands": ["delete_prop 13 4"]
       }
     ]
   }
 }
+
