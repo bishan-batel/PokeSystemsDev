@@ -1,0 +1,23 @@
+{
+  "name": "Template Name",
+  "max_health": 100,
+  "attacks": [
+    {
+      "name": "Attack1 Template",
+      "attack damage": 20
+    },
+    {
+      "name": "Attack2 Template",
+      "attack damage": 20
+    },
+    {
+      "name": "Attack3 Template",
+      "attack damage": 20
+    },
+    {
+      "name": "Attack4 Template",
+      "attack damage": 20
+    }
+  ],
+  "description": "Template Description, for new line use \n"
+}

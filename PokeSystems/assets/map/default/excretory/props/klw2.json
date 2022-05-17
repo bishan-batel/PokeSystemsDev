@@ -1,0 +1,16 @@
+{
+  "type": "Lectern",
+  "x": 19,
+  "y": 10,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[boolean]Collect kidney sample?",
+        "commands": [
+          "request_battle KIDNEY_TISSUE"
+        ]
+      }
+    ]
+  }
+}

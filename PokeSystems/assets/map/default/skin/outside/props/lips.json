@@ -1,0 +1,16 @@
+{
+  "type": "Lectern",
+  "x": 16,
+  "y": 14,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[boolean]Collect skin sample?",
+        "commands": [
+          "request_battle SKIN_TISSUE"
+        ]
+      }
+    ]
+  }
+}

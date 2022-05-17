@@ -1,0 +1,32 @@
+{
+  "type": "NPC",
+  "x": 13,
+  "y": 17,
+  "config": {
+    "color": 2,
+    "info": [
+      {
+        "text": "[query]Can you get me some bladder and kidney tissue samples so I may research for my grandpa? data*prBLADDER_TISSUE,prKIDNEY_TISSUE;That's not enough samples.",
+        "commands": []
+      },
+      {
+        "text": "The major organs of the excretory system are the kidneys, the ureters, the bladder, and the urethra. ",
+        "commands": []
+      },
+      {
+        "text": "The excretory system is responsible for removing was via sweating and urination and responsible for filtering blood by removing excess water and urea.",
+        "commands": []
+      },
+      {
+        "text": "The excretory system functions with the integumentary system to do its job. One of the ways the excretory system ",
+        "commands": []
+      },
+      {
+        "text": "disposes of waste is through sweat, but it needs to use the integumentary system, which includes the skin and therefore the sweat glands, to be able to remove the waste through sweat.",
+        "commands": [
+          "gamestate_set 2"
+        ]
+      }
+    ]
+  }
+}

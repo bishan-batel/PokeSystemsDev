@@ -1,0 +1,18 @@
+{
+  "type": "Lectern",
+  "x": 8,
+  "y": 16,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "It's a pile of mucus.         Created by the body in the mucus glands. Composed of enzymes such as lysozymes, immunoglobulins, lactoferinns, and mucins.",
+        "commands": []
+      },
+      {
+        "text": "(It's a booger)",
+        "commands": []
+      }
+    ]
+  }
+}

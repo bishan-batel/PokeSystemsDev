@@ -1,0 +1,28 @@
+{
+  "type": "Lectern",
+  "x": 17,
+  "y": 5,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "Sorry, you have to wait a bit longer before exiting. It seems as if we have missed information to display to you, and Juan and I don't want a bad grade.",
+        "commands": []
+      },
+      {
+        "text": "The respiratory system is vital to the circulatory system. The respiratory brings in oxygen, which the body needs for cellular respiration, and ",
+        "commands": []
+      },
+      {
+        "text": "oxygenates the blood. The circulatory system then spreads this oxygenated blood all around the body, keeping us alive.",
+        "commands": []
+      },
+      {
+        "text": "(Can you guess which system we're going to?)",
+        "commands": [
+          "lde default/lung"
+        ]
+      }
+    ]
+  }
+}

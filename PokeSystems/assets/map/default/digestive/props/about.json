@@ -1,0 +1,16 @@
+{
+  "type": "Lectern",
+  "x": 10,
+  "y": 5,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "It seems as if you've landed in the stomach judging my the ocean of Stomach Acid.",
+        "commands": [
+          "delete_prop 10 5"
+        ]
+      }
+    ]
+  }
+}

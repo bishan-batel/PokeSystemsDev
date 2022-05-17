@@ -1,0 +1,8 @@
+{
+  "player-x": 8,
+  "player-y": 10,
+  "available": [
+    "BRAIN_TISSUE",
+    "PERIPHERAL_NERVE"
+  ]
+}

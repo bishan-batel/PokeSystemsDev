@@ -1,0 +1,24 @@
+{
+  "type": "Lectern",
+  "x": 9,
+  "y": 4,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "Hey! You see me over the river? Yeah sorry, I was running out of the elevator over the bridge and it collapsed as I got out!",
+        "commands": []
+      },
+      {
+        "text": "[query]Do you have veins and arteries you can use to make another one?data*prVEIN,prARTERY;That's not enough, go get some more!",
+        "commands": [
+          "remove_pokemon VEIN",
+          "remove_pokemon ARTERY",
+          "set_tile BloodBridge 9 4",
+          "set_tile BloodBridge 10 4",
+          "delete_prop 9 4"
+        ]
+      }
+    ]
+  }
+}

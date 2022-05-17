@@ -1,0 +1,9 @@
+{
+  "player-x":12,
+  "player-y":5,
+  "available":
+  [
+    "TESTES_TISSUE",
+    "EPIDIDYMIS_TISSUE"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "Lectern",
+  "x": 10,
+  "y": 4,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[boolean]It seems as if the entrance is stuck. Would you like to use your scalpal to break the bone?",
+        "commands": [
+          "set_tile Flesh 9 2",
+          "set_tile Flesh 9 3",
+          "set_tile Flesh 9 4",
+          "set_tile Flesh 10 2",
+          "set_tile Flesh 10 3",
+          "set_tile Flesh 10 4",
+          "add_pokemon BONE_MARROW",
+          "add_pokemon BONE_TISSUE",
+          "delete_prop 10 4"
+        ]
+      },
+      {
+        "text": "Bone Tissue and Marrow added to your backpack",
+        "commands": []
+      }
+    ]
+  }
+}

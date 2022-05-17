@@ -1,0 +1,40 @@
+{
+  "type": "Lectern",
+  "x": 16,
+  "y": 16,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "I am Juan.",
+        "commands": []
+      },
+      {
+        "text": "I bear knowledge of the great secrets of biology",
+        "commands": []
+      },
+      {
+        "text": "I shall begin your quest for knowledge as you lie on my skin. Skin, the vital organ of the integumentary",
+        "commands": []
+      },
+      {
+        "text": "Although the skin protects me from the rays of UV and keeps my tempature stable through sweat,",
+        "commands": [
+          "toggle_player_spin"
+        ]
+      },
+      {
+        "text": "I shall allow you into my nose so you may explore and learn the knowledge of Body Systems. ",
+        "commands": []
+      },
+      {
+        "text": "(For the low price of $49.99, comes with the purchase of a Mastering Biology Textbook)",
+        "commands": []
+      },
+      {
+        "text": "After discovering the rest of the integumentary, I allow you to pass through into the immune system even if other pathogens are stopped.",
+        "commands": []
+      }
+    ]
+  }
+}

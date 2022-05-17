@@ -1,0 +1,9 @@
+{
+  "player-x":8,
+  "player-y":18,
+  "available":
+  [
+    "ALVEOLI",
+    "LUNG_TISSUE"
+  ]
+}

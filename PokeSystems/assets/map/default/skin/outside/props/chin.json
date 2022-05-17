@@ -1,0 +1,16 @@
+{
+  "type": "Lectern",
+  "x": 16,
+  "y": 20,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "Chin",
+        "commands": [
+          "toggle_player_spin"
+        ]
+      }
+    ]
+  }
+}

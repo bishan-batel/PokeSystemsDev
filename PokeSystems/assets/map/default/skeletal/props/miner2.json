@@ -1,0 +1,14 @@
+{
+  "type": "NPC",
+  "x": 9,
+  "y": 25,
+  "config": {
+    "color": 3,
+    "info": [
+      {
+        "text": "Don't bother me, I'm trying to mine this bone.",
+        "commands": []
+      }
+    ]
+  }
+}

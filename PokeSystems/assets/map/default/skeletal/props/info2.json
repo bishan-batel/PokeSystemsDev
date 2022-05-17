@@ -1,0 +1,38 @@
+{
+  "type": "NPC",
+  "x": 8,
+  "y": 24,
+  "config": {
+    "color": 3,
+    "info": [
+      {
+        "text": "[boolean]Seems like we have one more wall to break through, want to pick up where we left off?",
+        "commands": [
+          "set_tile Flesh 9 26",
+          "set_tile Flesh 10 26"
+        ]
+      },
+      {
+        "text": "The muscular system and the skeletal system depend on each other for movement. The skeletal muscles from the muscular system attach themselves to the bones",
+        "commands": [
+          "set_tile Flesh 9 27",
+          "set_tile Flesh 10 27"
+        ]
+      },
+      {
+        "text": " which allows the body to support itself. When the muscles contract, the muscles pull the bones in certain directions and allow the whole body to move.",
+        "commands": [
+          "set_tile Flesh 9 28",
+          "set_tile Flesh 10 28"
+        ]
+      },
+      {
+        "text": "Oh, it seems as if he's done mining.",
+        "commands": [
+          "delete_prop 8 24",
+          "delete_prop 9 25"
+        ]
+      }
+    ]
+  }
+}

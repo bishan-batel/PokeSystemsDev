@@ -1,0 +1,44 @@
+{
+  "type": "NPC",
+  "x": 1,
+  "y": 7,
+  "config": {
+    "color": 6,
+    "info": [
+      {
+        "text": "This is a peripheral nerve out of here to the Reproductive System. Its broken though.",
+        "commands": []
+      },
+      {
+        "text": "[query]Do you have any nerves and brain tissue to help repair this?data*prPERIPHERAL_NERVE,prBRAIN_TISSUE;That's not quite enough",
+        "commands": []
+      },
+      {
+        "text": "Thanks! Give me a second while I fix this...",
+        "commands": []
+      },
+      {
+        "text": "While you wait, did you know that the major organs of the nervous system are the brain, the spinal cord, and the peripheral nerves. ",
+        "commands": []
+      },
+      {
+        "text": "The nervous system uses these body components to control and coordinate bodily functions, respond to stimuli, and maintain homeostasis.",
+        "commands": []
+      },
+      {
+        "text": "The nervous system is needed for all the other body systems to function.",
+        "commands": []
+      },
+      {
+        "text": "Its done! Time for you to go!",
+        "commands": []
+      },
+      {
+        "text": "*you slide down the nerves*",
+        "commands": [
+          "lde default/reproductive"
+        ]
+      }
+    ]
+  }
+}

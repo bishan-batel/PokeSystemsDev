@@ -1,0 +1,8 @@
+{
+  "player-x": 10,
+  "player-y": 5,
+  "available": [
+    "STOMACH_ACID",
+    "SMALL_INTESTINE_TISSUE"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "player-x":1,
+  "player-y":3,
+  "available": [
+    "VEIN",
+    "ARTERY",
+    "T_CELL",
+    "B_CELL"
+  ]
+}

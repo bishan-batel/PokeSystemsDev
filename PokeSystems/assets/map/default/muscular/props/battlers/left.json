@@ -1,0 +1,20 @@
+{
+  "type": "NPC",
+  "x": 2,
+  "y": 5,
+  "config": {
+    "color": 4,
+    "info": [
+      {
+        "text": "Sup bro, I excersise like a real man and use my smooth muscles and excersise to the max",
+        "commands": []
+      },
+      {
+        "text": "[boolean]You wanna lift with me bro?",
+        "commands": [
+          "request_battle SMOOTH_MUSCLE_TISSUE"
+        ]
+      }
+    ]
+  }
+}

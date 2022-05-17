@@ -1,0 +1,38 @@
+{
+  "type": "NPC",
+  "x": 8,
+  "y": 12,
+  "config": {
+    "color": 3,
+    "info": [
+      {
+        "text": "[boolean]Hi, want to talk while my friend here mines his way through this bone?",
+        "commands": [
+          "set_tile Flesh 9 14",
+          "set_tile Flesh 10 14"
+        ]
+      },
+      {
+        "text": "The major components of the skeletal system are the bones in the body. Bones provide the structure and support for the body.",
+        "commands": [
+          "set_tile Flesh 9 15",
+          "set_tile Flesh 10 15"
+        ]
+      },
+      {
+        "text": "The skeletal system also works with connective tissues, such as cartilage and ligaments, and bone marrow.",
+        "commands": [
+          "set_tile Flesh 9 16",
+          "set_tile Flesh 10 16"
+        ]
+      },
+      {
+        "text": "Oh, it seems as if he's done mining.",
+        "commands": [
+          "delete_prop 8 12",
+          "delete_prop 9 13"
+        ]
+      }
+    ]
+  }
+}

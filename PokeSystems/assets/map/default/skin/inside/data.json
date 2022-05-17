@@ -1,0 +1,9 @@
+{
+  "player-x": 6,
+  "player-y": 29,
+  "available":
+  [
+    "T_CELL",
+    "B_CELL"
+  ]
+}

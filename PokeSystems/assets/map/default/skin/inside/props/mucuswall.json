@@ -1,0 +1,14 @@
+{
+  "type": "Lectern",
+  "x": 21,
+  "y": 1,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "It's a mucus wall. Placed here to stop both you, pathogens, and toxins (Jay) from entering.",
+        "commands": []
+      }
+    ]
+  }
+}

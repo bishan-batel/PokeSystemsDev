@@ -1,0 +1,14 @@
+{
+  "type": "Lectern",
+  "x": 15,
+  "y": 15,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "Talk shit get boned",
+        "commands": []
+      }
+    ]
+  }
+}

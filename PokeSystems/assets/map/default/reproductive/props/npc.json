@@ -1,0 +1,79 @@
+{
+  "type": "NPC",
+  "x": 18,
+  "y": 22,
+  "config": {
+    "color": 0,
+    "info": [
+      {
+        "text": "I stole the key to the elevator, and I'll only give it back if you give me research samples.",
+        "commands": []
+      },
+      {
+        "text": "If you tattle on me to Ms.Hernandez I'll bully you and you won't be my friend anymore.",
+        "commands": []
+      },
+      {
+        "text": "*you will remember that*",
+        "commands": []
+      },
+      {
+        "text": "[query]Give the meanie-head research samples?data*prTESTES_TISSUE,prEPIDIDYMIS_TISSUE;You do not have the needed samples.",
+        "commands": [
+          "remove_pokemon TESTES_TISSUE",
+          "remove_pokemon EPIDIDYMIS_TISSUE"
+        ]
+      },
+      {
+        "text": "Heres the key, thanks loser.",
+        "commands": []
+      },
+      {
+        "text": "[bishan.ml and Juan Inc. do not approve of bullying of any kind]",
+        "commands": []
+      },
+      {
+        "text": "I'm sorry for being mean to you, I'll teach about the Reproductive System as an apology.",
+        "commands": []
+      },
+      {
+        "text": "There are different major organs in the reproductive system based on sex. Males have testes, ",
+        "commands": []
+      },
+      {
+        "text": "epididymis, vas deferens, a prostate, a seminal vesicle, a urethra, and a penis. Females have",
+        "commands": []
+      },
+      {
+        "text": "ovaries, fallopian tubes, a uterus, a vagina, and breasts. The reproductive systems job is to ",
+        "commands": []
+      },
+      {
+        "text": "create gametes through meiosis, which allow organisms to pass on their genes.",
+        "commands": []
+      },
+      {
+        "text": "The elevator that you're going in goes up to parts of the Endocrine System. Did you know that ",
+        "commands": []
+      },
+      {
+        "text": "The reproductive system and the endocrine system interact with each other all the time. ",
+        "commands": []
+      },
+      {
+        "text": "The endocrine system creates hormones and releases them into the bloodstream. ",
+        "commands": []
+      },
+      {
+        "text": "These hormones then affect reproductive behavior and the development of the body including the reproductive system. ",
+        "commands": []
+      },
+      {
+        "text": "The endocrine system controls reproduction.",
+        "commands": [
+          "lde default/endocrine"
+        ]
+      }
+    ]
+  }
+}

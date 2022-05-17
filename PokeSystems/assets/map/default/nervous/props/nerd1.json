@@ -1,0 +1,14 @@
+{
+  "type": "NPC",
+  "x": 9,
+  "y": 12,
+  "config": {
+    "color": 6,
+    "info": [
+      {
+        "text": "So you got kicked out of the muscle club too?",
+        "commands": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "Lectern",
+  "x": 13,
+  "y": 17,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[boolean]Break bone wallL?",
+        "commands": []
+      },
+      {
+        "text": "*you smash your head in the bone*",
+        "commands": [
+          "set_tile Flesh 14 17",
+          "set_tile Flesh 15 17",
+          "set_tile Flesh 16 17",
+          "delete_prop 13 17"
+        ]
+      },
+      {
+        "text": "It opened.",
+        "commands": []
+      }
+    ]
+  }
+}

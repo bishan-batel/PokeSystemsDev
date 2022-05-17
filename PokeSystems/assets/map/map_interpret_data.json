@@ -1,0 +1,26 @@
+{
+  "block key": [
+    ["#00ff00", "Grass"],
+    ["#828282", "Rock"],
+    ["#dbdb42", "Path"],
+    ["#006900", "TallGrass"],
+    ["#7dab7d", "Tree"],
+    ["#012c00", "GrassHole"],
+    ["#690000", "Flesh"],
+    ["#490000", "VeinField"],
+    ["#929292", "Bone"],
+    ["#efae8b", "Skin"],
+    ["#fffffa", "Juan"],
+    ["#fffffb", "Elevator"],
+    ["#d58dd6", "Lung"],
+    ["#f69ff7", "SoftLung"],
+    ["#de1ede", "LungGrass"],
+    ["#79000c", "SkinBloodPool"],
+    ["#a8b8c8", "ElevatorFloor"],
+    ["#4e060d", "FlowingBlood"],
+    ["#748596", "Dumbell"],
+    ["#8b9aa9", "Carpet"],
+    ["#00b201", "Acid"]
+  ]
+}
+

@@ -1,0 +1,45 @@
+{
+  "type": "NPC",
+  "x": 10,
+  "y": 6,
+  "config": {
+    "color": 3,
+    "direction": 2,
+    "info": [
+      {
+        "text": "I'll give you the key to the elevator if you give me some lung tissue and an aveoli. I don't want to touch it, but my friend needs it for research.",
+        "commands": []
+      },
+      {
+        "text": "[query]Do you have an aveoli and lung tissue to trade for?data*prAVEOLI,prLUNG_TISSUE;Don't lie to me.",
+        "commands": []
+      },
+      {
+        "text": "Thanks! Heres the key. By the way, the Elevator goes straight to the the rib cage, a part of the Skeletal System.",
+        "commands": [
+          "remove_pokemon ALVEOLI",
+          "remove_pokemon LUNG_TISSUE",
+          "add_pokemon SILVER_KEY"
+        ]
+      },
+      {
+        "text": "While the direct connection between the respiratory system and the skeletal system isn’t obvious at first, the respiratory system greatly",
+        "commands": []
+      },
+      {
+        "text": "benefits from the skeletal system. The rib cage, which is part of the skeletal system, protects the lungs from being damaged when the chest",
+        "commands": []
+      },
+      {
+        "text": "physically collides with something. The lungs are a vital part of the respiratory system.",
+        "commands": [
+          "delete_prop 10 6"
+        ]
+      },
+      {
+        "text": "Goodbye!",
+        "commands": []  
+      }
+    ]
+  }
+}

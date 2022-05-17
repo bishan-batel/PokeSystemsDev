@@ -1,0 +1,1 @@
+{  "type": "NPC",  "x": 13,  "y": 17,  "config": {    "color": 5,    "info": [      {        "text": "Hunk",        "commands": []      }    ]  }}

@@ -1,0 +1,14 @@
+{
+  "type": "Lectern",
+  "x": 6,
+  "y": 24,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "It's a pool of blood, Juan must have had a bloody nose. There seems to be cells floating inside...",
+        "commands": []
+      }
+    ]
+  }
+}

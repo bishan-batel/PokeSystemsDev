@@ -1,0 +1,55 @@
+{
+  "type": "NPC",
+  "x": 13,
+  "y": 4,
+  "config": {
+    "color": 1,
+    "info": [
+      {
+        "text": "Hey! We're back together, now I can tell you more about the Lymphatic System.",
+        "commands": []
+      },
+      {
+        "text": "One of the main functions of the lymphatic system is to collect lost fluid. This lost fluid is then returned to the blood which is being pumped around the body",
+        "commands": []
+      },
+      {
+        "text": " by the circulatory system. This interaction shows how the lymphatic system and the circulatory system work together.",
+        "commands": []
+      },
+      {
+        "text": "More about the circulatory system, ",
+        "commands": []
+      },
+      {
+        "text": "The major organs of the circulatory system are the heart, the veins, and the arteries. These organs all work together in order to pump blood to all parts of your body.",
+        "commands": []
+      },
+      {
+        "text": "This distributes all the nutrients and chemicals, such as glucose and oxygen, in blood to all your organs.",
+        "commands": []
+      },
+      {
+        "text": "Enough about the circulatory system though, trash system. Lymphatic System Rules, way better than that garbage.",
+        "commands": []
+      },
+      {
+        "text": "Sorry that was toxic of me, it's a bad habit. By the way, I don't think I've introduced myself, my name is Jay.",
+        "commands": []
+      },
+      {
+        "text": "I'll repair your scalpal for you as to atone for my sin of being toxic.",
+        "commands": [
+          "remove_pokemon SCALPAL",
+          "add_pokemon SCALPAL"
+        ]
+      },
+      {
+        "text": "I'll see you later!",
+        "commands": [
+          "delete_prop 13 4"
+        ]
+      }
+    ]
+  }
+}

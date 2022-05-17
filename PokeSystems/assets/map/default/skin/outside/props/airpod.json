@@ -1,0 +1,14 @@
+{
+  "type": "Lectern",
+  "x": 8,
+  "y": 16,
+  "config": { 
+    "direction": 4,
+    "info": [
+      {
+        "text": "Juan flexing on you smh rich people am I right?",
+        "commands": []
+      }
+    ]
+  }
+}

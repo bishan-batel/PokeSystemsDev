@@ -1,0 +1,16 @@
+{
+  "type": "Lectern",
+  "x": 13,
+  "y": 22,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[boolean]Collect bladder sample?",
+        "commands": [
+          "request_battle BLADDER_TISSUE"
+        ]
+      }
+    ]
+  }
+}

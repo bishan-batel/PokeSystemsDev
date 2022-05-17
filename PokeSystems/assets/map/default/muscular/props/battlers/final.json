@@ -1,0 +1,58 @@
+{
+  "type": "NPC",
+  "x": 8,
+  "y": 1,
+  "config": {
+    "color": 4,
+    "info": [
+      {
+        "text": "[query]I only talk with people with real muscles, you got 'em? data*prSKELETAL_MUSCLE_TISSUE,prSMOOTH_MUSCLE_TISSUE,prCARDIAC_MUSCLE_TISSUE;You don't got enough muscles.",
+        "commands": []
+      },
+      {
+        "text": "Bro..",
+        "commands": []
+      },
+      {
+        "text": "I offer you the gift of knowledge.",
+        "commands": []
+      },
+      {
+        "text": "The major parts of the muscular system are muscles, specifically cardiac muscles, smooth muscles, and skeletal muscles.",
+        "commands": []
+      },
+      {
+        "text": "The muscular system is responsible for movement and contractions within the body. These contractions can be voluntary, such as skeletal muscle contractions,",
+        "commands": []
+      },
+      {
+        "text": " or in voluntary, such as cardiac and smooth muscles. ",
+        "commands": []
+      },
+      {
+        "text": "Smooth muscles from the muscular system line organs, such as those involved in the digestive system (the stomach, the intestines, etc).",
+        "commands": []
+      },
+      {
+        "text": "The contractions of these muscles are involuntary, but the smooth muscles help the digestive system push the food along the organs so that it can be digested properly.",
+        "commands": []
+      },
+      {
+        "text": "Bro you just got some knowledge, but now you a nerd ew.",
+        "commands": []
+      },
+      {
+        "text": "*the man smashes a hole in the floor*",
+        "commands": [
+          "set_tile ElevatorHole 8 2"
+        ]
+      },
+      {
+        "text": "*you fall in*",
+        "commands": [
+          "lde default/digestive"
+        ]
+      }
+    ]
+  }
+}

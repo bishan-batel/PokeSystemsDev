@@ -1,0 +1,62 @@
+{
+  "type": "NPC",
+  "x": 8,
+  "y": 6,
+  "config": {
+    "color": 5,
+    "info": [
+      {
+        "text": "[query]bro, I can't move right now I'm so tired. You got any acid I could use?data*prSTOMACH_ACID;Don't lie to me, you got none",
+        "commands": [
+          "remove_pokemon STOMACH_ACID"
+        ]
+      },
+      {
+        "text": "*eats the acid* bro I see the secrets of the universe",
+        "commands": []
+      },
+      {
+        "text": "We're like, in the stomach...",
+        "commands": []
+      },
+      {
+        "text": "The major components of the digestive system are the mouth, the esophagus, the stomach, the small intestine, the large intestine / colon, the rectum, and the anus. ",
+        "commands": []
+      },
+      {
+        "text": "This system takes in food, digest the food until the nutrients can be absorbed, and removes the indigestible food from the body. ",
+        "commands": []
+      },
+      {
+        "text": "These nutrients can be then distributed to the rest of the systems.",
+        "commands": []
+      },
+      {
+        "text": "The digestive system and the nervous system work closely together. The nervous system sends signals to the digestive system that control ",
+        "commands": []
+      },
+      {
+        "text": "the digestive behavior of the body, such as eating, drinking, and the contractions of the organs involved in pushing the food through the system.",
+        "commands": []
+      },
+      {
+        "text": "oh wow my acid is wearing off, you want some?",
+        "commands": []
+      },
+      {
+        "text": "[You]: No, drugs are bad and so is peer preasure.",
+        "commands": []
+      },
+      {
+        "text": "(Funded by The Truth)",
+        "commands": []
+      },
+      {
+        "text": "*it has seems by following the law your brain has expanded into the nervous system",
+        "commands": [
+          "lde default/nervous"
+        ]
+      }
+    ]
+  }
+}

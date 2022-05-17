@@ -1,0 +1,22 @@
+{
+  "type": "Lectern",
+  "x": 17,
+  "y": 13,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[boolean]Enter right nostril?",
+        "commands": []
+      },
+      {
+        "text": "*you attempt to get in*",
+        "commands": []
+      },
+      {
+        "text": "It seems as if this is not Juan's dominent nostril.",
+        "commands": []
+      }
+    ]
+  }
+}

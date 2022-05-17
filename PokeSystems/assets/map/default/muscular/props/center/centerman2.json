@@ -1,0 +1,24 @@
+{
+  "type": "NPC",
+  "x": 9,
+  "y": 4,
+  "config": {
+    "color": 4,
+    "info": [
+      {
+        "text": "Welcome to the Muscular Club, work out your muscles as much as you need!",
+        "commands": []
+      },
+      {
+        "text": "[boolean] Would you like some muscle to get started?",
+        "commands": [
+          "add_pokemon SKELETAL_MUSCLE_TISSUE"
+        ]
+      },
+      {
+        "text":"Skeletal Muscle Tissue has been added to your backpack",
+        "commands":[]
+      }
+    ]
+  }
+}

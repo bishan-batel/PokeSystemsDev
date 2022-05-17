@@ -1,0 +1,39 @@
+{
+  "type": "NPC",
+  "x": 8,
+  "y": 9,
+  "config": {
+    "color": 7,
+    "info": [
+      {
+        "text": "It's beutiful isn't it? Its the Adrenal Gland. Personally I spent most of my time at the Hypothalamus gland, but this one is cool too.",
+        "commands": []
+      },
+      {
+        "text": "You want a sample?",
+        "commands": [
+          "pokemon_add ADRENAL_GLAND_TISSUE",
+          "pokemon_add HYPOtHALAMUS_GLAND_TISSUE"
+        ]
+      },
+      {
+        "text": "I'll never get sick of staring at this gland. . . Y'know, the major organs of the endocrine system are glands, which ",
+        "commands": []
+      },
+      {
+        "text": "include the hypothalamus, the pituitary, the thyroid, the adrenal, the pancreas, the ovaries, and the testes.",
+        "commands": []
+      },
+      {
+        "text": "These glands serve to produce hormones  that control metabolism, reproduction, and the growth and development of the body.",
+        "commands": []
+      },
+      {
+        "text": "You're a nice kid, I'll give you free guidance over to the Kidneys.",
+        "commands": [
+          "lde default/excretory"
+        ]
+      }
+    ]
+  }
+}

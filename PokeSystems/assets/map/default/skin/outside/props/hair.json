@@ -1,0 +1,20 @@
+{
+  "type": "Lectern",
+  "x": 12,
+  "y": 14,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "It's a small stubble of hair.",
+        "commands": []
+      },
+      {
+        "text": "[boolean] Collect sample?",
+        "commands": [
+          "request_battle HAIR_FOLLICLE"
+        ]
+      }
+    ]
+  }
+}

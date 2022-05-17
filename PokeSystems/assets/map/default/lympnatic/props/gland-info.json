@@ -1,0 +1,28 @@
+{
+  "type": "Lectern",
+  "x": 10,
+  "y": 3,
+  "config": {
+    "direction": "4",
+    "info": [
+      {
+        "text": "There seems to be a Lymph Gland in the elavator.",
+        "commands": []
+      },
+      {
+        "text": "[boolean]Would you like to poke it?",
+        "commands": [
+          "add_pokemon LYMPH_NODE",
+          "add_pokemon LYMPH_NODE",
+          "add_pokemon LYMPH_NODE"
+        ]
+      },
+      {
+        "text": "Several Lymph Nodes crawled away from the gland and into your backpack.",
+        "commands": [
+          "add_prop {\"type\": \"NPC\",\"x\": 7,\"y\": 5,\"config\": {\"direction\": \"4\",\"color\": 1,\"info\": [{\"text\": \"Oh hey there. Can you press Floor4b? Thanks. You must be a visiting, welcome to the body of Juan.\",\"commands\": [\"add_prop{}\"]},{\"text\": \"That's a cool Lymph Node you got there.\",\"commands\": []},{\"text\": \"Did you know that the major organs of the lymphatic system are the lymph nodes, which are filters for particles that come from outside the body.\",\"commands\": []},{\"text\": \"The purpose of the system is to store and carry white blood cells, and to collect lost fluid to return the fluid to the blood.\",\"commands\": []},{\"text\": \"Oh, it seems like this is our floor.\",\"commands\": [\"lde default/circulatory\"]}]}}"
+        ]
+      }
+    ]
+  }
+}

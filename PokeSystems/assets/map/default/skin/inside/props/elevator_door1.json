@@ -1,0 +1,26 @@
+{
+  "type": "Lectern",
+  "x": 9,
+  "y": 2,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[query]The elevator seems to be run down. Will you place a T-Cell and B-Cell to destroy the bacteria eating away at the wires?data*prT_CELL,prB_CELL;You do not have both a T Cell and B Cell",
+        "commands": []
+      },
+      {
+        "text": "*you place the cells on the wires*",
+        "commands": []
+      },
+      {
+        "text": "The elevator has seemed to open.",
+        "commands": [
+          "remove_pokemon T_CELL",
+          "remove_pokemon B_CELL",
+          "lde default/lympnatic"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "NPC",
+  "x": 8,
+  "y": 10,
+  "config": {
+    "color": 3,
+    "direction": 2,
+    "info": [
+      {
+        "text": "The major organs of the respiratory system are the nose, the larynx, the pharynx, the trachea, the lungs, the bronchi, and the alveoli. ",
+        "commands": []
+      },
+      {
+        "text":"The respiratory system's purpose is to exchange oxygen and carbon dioxide between your body, blood and tissues,  ",
+        "commands":[]
+      },
+      {
+        "text":"and the air around you. This process allows for the body to perform cellular respiration.",
+        "commands":[]
+      }
+    ]
+  }
+}

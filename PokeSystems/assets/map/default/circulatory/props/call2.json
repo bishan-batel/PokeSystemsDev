@@ -1,0 +1,20 @@
+{
+  "type": "Lectern",
+  "x": 11,
+  "y": 4,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[query]Do you have veins and arteries you can use to make another one?data*prVEIN,prARTERY;That's not enough, go get some more!",
+        "commands": [
+          "remove_pokemon VEIN",
+          "remove_pokemon ARTERY",
+          "set_tile BloodBridge 11 4",
+          "set_tile BloodBridge 12 4",
+          "delete_prop 11 4"
+        ]
+      }
+    ]
+  }
+}

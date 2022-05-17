@@ -1,0 +1,16 @@
+{
+  "type": "Lectern",
+  "x": 9,
+  "y": 6,
+  "config": {
+    "direction": 4,
+    "info": [
+      {
+        "text": "[query]Enter elevator?data*prSILVER_KEY;You need a silver key to access",
+        "commands": [
+          "lde default/skeletal"
+        ]
+      }
+    ]
+  }
+}
